@@ -4,12 +4,10 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
-#include <windows.h>
+#include "windows.h"
 using namespace std;
 int main()
 {
-	SetConsoleOutputCP(1251);
-	SetConsoleCP(1251);
 	double x, y;
 	double start = 1.0;
 	double end = 2.0;
