@@ -12,7 +12,7 @@ int main() {
     double x;
     cout << "Введіть значення x: ";
     cin >> x;
-    
+    //changes for git 
     double product = 1.0;
     for (int k = 1; k <= 5; k++) {
         product *= sin(k * x);
